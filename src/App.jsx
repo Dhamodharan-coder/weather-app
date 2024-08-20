@@ -52,6 +52,7 @@ if(data.cod==="404"){
     setloading(false);
     return;
 }
+        setdismsg(false);
 sethumidity(data.main.humidity)
 setWindspeed(data.wind.speed)
 setlongitude(data.coord.lon)
